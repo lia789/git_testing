@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block title %}{{month}}{% endblock title %}
+
+
+
+{% block heading %}
+<h3>{{month|title}} month goals:</h3>
+{% endblock heading %}
+
+{% comment %} {% block content %}
+    {% include "challenges/includes/navbar.html" %}
+{% endblock content %}  {% endcomment %}
+
+{% block content %}
+    {% if month_goal_text is not None %}
+        <h1>{{month_goal_text}}</h1>  
+    {% else  %}
+        <h1>Opps!!</h1>
+        <h5>You don't set {{month|title}} goal yet !!</h5> 
+    {% endif %}
+{% endblock content %}
+

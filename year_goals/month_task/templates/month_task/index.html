@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+
+{% block title %}Home Page{% endblock %}
+
+
+{% block header %}
+<h1>Welcome to Yearly Goal Application</h1>
+<h3>Here is list of month, click to view goals</h3>
+{% endblock %}
+
+
+{% block content %}
+<ul>
+    {% for month_name in  months%}
+    <li><a href="{% url 'month_url_path' month_name %}">{{month_name|title}}</a></li>
+    {% endfor %}
+</ul>
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}{{month_name}} Page {% endblock %}
+
+{% block header %}
+<h4>{{month_name|title}} Month Goals...</h4>
+{% endblock %}
+
+
+{% block content %}
+    {% if task_text is not None %}
+    <h1>{{task_text|title}}</h1>
+    {% else  %}
+        <h1>Opps!!</h1>
+        <h5>You don't set {{month_name|title}} goal yet !!</h5> 
+    {% endif %}
+{% endblock content %}

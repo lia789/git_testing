@@ -1,0 +1,39 @@
+/* Home work one */
+.sky-box {
+    background-color: skyblue;
+    width: 400px;
+    height: 350px;
+}
+
+.amber-box {
+    background-color: rgb(255, 214, 152);
+    width: 350px;
+    height: 250px;
+}
+
+.green-box {
+    background-color: green;
+    width: 300px;
+    height: 100px;
+}
+
+.blue-box {
+    background-color: rgb(43, 6, 255);
+    width: 130px;
+    height: 150px;
+}
+
+
+
+/* Home work two */
+.grey-box {
+    background-color: gray;
+    width: 680px;
+    height: 500px;
+}
+
+.yellow-box {
+    background-color: yellow;
+    width: 450px;
+    height: 300px;
+}

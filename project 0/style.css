@@ -1,0 +1,38 @@
+.first-box {
+    background-color: rgb(189, 255, 255);
+    width: 500px;
+    height: 180px;
+    /* text-align: center; */
+
+}
+.nested-div-1 {
+    background-color: rgb(13, 226, 241);
+    width: 250px;
+    height: 80px;
+}
+
+.nested-div-2 {
+    background-color: rgb(241, 123, 13);
+    width: 100px;
+    height: 150px;
+}
+
+
+
+
+.second-box {
+    background-color: rgb(243, 195, 167);
+    width: 400px;
+    height: 300px;
+    /* text-align: center; */
+}
+
+#text-1 {
+    color: rgb(2, 2, 2);
+    font-size: 30px;
+}
+
+#text-2 {
+    color: rgb(2, 2, 2);
+    font-size: 20px;
+}

@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Home Page{% endblock %}
+{% block css_files %}<link rel="stylesheet" href="{% static "blog/app.css" %}">{% endblock %}
+
+
+
+{% block content %}
+<header id="main-navigation">
+    <h1><a href="">Max's Blog</a></h1>
+    <nav>
+        <a href="">All Posts</a>
+    </nav>
+</header>
+
+<section id="welcome">
+    <header>
+        <img src="" alt="Max - The author of the blog">
+        <h2>MAXINILIAN'S BLOG</h2>
+    </header>
+    <p>Hi, I am Max and I love to blog about tech and the world</p>
+</section>
+
+
+<section id="latest-posts">
+    <h2>My Latest Thoughts</h2>
+    <ul>
+        <li>
+            <article class="post">
+                <a href="">
+                    <img src="" alt="Mountain Hiking">
+                    <div class="post_content">
+                        <h3>Mountain Hiking</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Quis qui explicabo modi quibusdam doloribus unde ut cumque beatae exercitationem, dolore
+                            molestias.
+                            Quaerat neque aliquam tenetur. Reiciendis aliquam quasi ad labore.
+                        </p>
+
+                    </div>
+                </a>
+            </article>
+        </li>
+    </ul>
+
+</section>
+
+<section id="about">
+    <h2>What I do</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, architecto!</p>
+</section>
+
+{% endblock %}
+
+

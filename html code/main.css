@@ -1,0 +1,28 @@
+body {
+    color: white;
+}
+.container-fluid {
+    background-color: rgb(75, 3, 169);
+    max-height: 500px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.myBlogContainer {
+    max-height: 450px;
+    color: white;
+
+}
+
+
+/* Blog page CSS file */
+
+
+.myTitleBox {
+    background-color: rgb(163, 102, 243);
+    min-height: 400px;
+}

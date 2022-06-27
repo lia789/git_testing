@@ -1,0 +1,57 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>{% block title %}{% endblock %}</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <!-- django css file -->
+    <link rel="stylesheet" href="{% static "main.css" %}">
+    {% block bootstrap%}{% endblock %}
+    {% block css_files%}{% endblock %}
+  </head>
+
+  <body>
+    
+    <!-- Navbar container fluid-->
+    <div class="container-fluid text-center">
+      <!-- Heading nested container -->
+      <div class="container">
+        <!-- Navbar -->
+        <div class="row justify-content-md-center py-5">
+          <div class="col h2 font-weight-bold"><a href="#">Max' Blog</a></div>
+          <div class="col h6 font-weight-bold"><a href="#">All Posts</a></div>
+        <!-- Navbar end -->
+        </div>
+      <!-- Heading nested container end -->  
+      </div>
+
+      {% block home_page %} {% endblock %}
+
+    <!-- Navbar container fluid end -->
+    </div>
+
+
+    {% block content %} {% endblock %}
+    
+    <!-- Footer -->
+    <div class="container bg-warning py-2">
+        <div class="row">
+          <div class="col text-dark">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+              laboriosam vero assumenda ratione rerum, necessitatibus dolorum ut
+              quas praesentium veniam!
+            </p>
+          </div>
+        </div>
+    <!-- Footer end -->
+    </div>
+
+  </body>
+</html>

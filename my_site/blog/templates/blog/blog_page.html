@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}All Posts{% endblock %}
+
+{% block bootstrap%}
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+{% endblock %}
+
+{% block css_files %}
+<link rel="stylesheet" href="{% static "blog/app.css" %}">
+{% endblock %}
+
+
+
+
+
+
+{% block content %}
+<div class="container">
+    <div class="row">
+      <div class="col">
+        <h1>Nature At Its Best</h1>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem">
+          <img
+            class="card-img-top img-fluid img-thumbnail"
+            src="{% static "blog/images/coding.jpg" %}"
+            alt="coding"
+          />
+          <div class="card-body text-dark">
+            <h5 class="card-title">By Maximilian</h5>
+            <p class="card-text">Last updated on 05 Aug 2020</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<div class="container bg-light text-dark">
+    <div class="row">
+      <div class="col">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem odio
+          neque commodi, ipsa provident sapiente saepe earum est facilis
+          tenetur labore ipsam harum eos dolor ipsum consectetur incidunt
+          mollitia aut, necessitatibus autem aspernatur. Blanditiis cum fuga
+          dolorem qui, accusamus nemo libero eius tenetur quae maiores culpa
+          eligendi. Earum, ipsum qui? Pariatur fugit quae, vitae omnis,
+          aliquid debitis repellendus fuga cum voluptatum optio ratione
+          accusantium error? Error, alias recusandae. In mollitia, ut beatae
+          repudiandae illo quia distinctio, adipisci iusto nisi temporibus
+          eius cupiditate deserunt, quis eveniet. Rerum ut repellat tenetur,
+          ipsa ab cum cumque sit repellendus tempora qui quam quae autem modi,
+          accusamus ea? Dolores modi, similique magni quisquam aperiam
+          voluptate exercitationem repellat adipisci esse molestiae? Aliquam
+          modi at provident quibusdam, minus quasi nihil dolorem veniam
+          sapiente laboriosam facere quae incidunt perspiciatis ipsam dolor
+          ipsa quas perferendis neque corrupti praesentium dignissimos. Eum
+          doloribus eos minima! Cumque dolore illum dicta optio quos culpa
+          neque facilis nam quo tenetur unde quaerat, officiis, nobis harum
+          aperiam error corporis atque doloremque nisi repellendus voluptas,
+          iure consequatur dolores iusto. Obcaecati illo voluptatum
+          repudiandae iure id eligendi eum nisi nihil. Vitae porro quo
+          eligendi ullam provident, magnam adipisci quidem itaque maiores
+          consequuntur necessitatibus voluptatum repellat odio accusamus.
+        </p>
+      </div>
+    </div>
+
+{% endblock %}

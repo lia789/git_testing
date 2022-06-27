@@ -1,0 +1,105 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Home Page{% endblock %}
+
+{% block bootstrap%}
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+{% endblock %}
+
+{% block css_files %}
+<link rel="stylesheet" href="{% static "blog/app.css" %}">
+{% endblock %}
+
+
+
+{% block home_page %}
+<!-- Title text container -->
+<div class="container">
+
+    <!-- title content -->
+    <div class="row">
+        <div class="col-2">
+          <img
+            src="{% static "blog/images/max.png" %}"
+            class="img-fluid img-thumbnail rounded float-left"
+            alt="max"
+          />
+        </div>
+        <div class="col-4">
+          <h1 class="font-weight-bold display-4 text-white">MAXIMILIAN'S BLOG</h1>
+          <p class="text-white">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. A,
+            placeat aliquam?
+          </p>
+        </div>
+      </div>
+    </div>
+
+<!-- Title text container end -->
+</div>
+
+<!-- Blog post container -->
+<div class="container bg-light myBlogContainer py-1">
+    <h2 class="text-dark">My Latest Thoughts</h2>
+
+    <div class="row">
+      <!-- Cards one -->
+      <div class="col">
+        <div class="card" style="width: 18rem">
+          <img
+            class="card-img-top img-fluid img-thumbnail"
+            src="{% static "blog/images/coding.jpg" %}"
+            alt="coding"
+          />
+          <div class="card-body text-dark">
+            <h5 class="card-title">Programming Is Great!</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cards two -->
+      <div class="col">
+        <div class="card" style="width: 18rem">
+          <img
+            class="card-img-top img-fluid img-thumbnail"
+            src="{% static "blog/images/woods.jpg" %}"
+            alt="woods"
+          />
+          <div class="card-body text-dark">
+            <h5 class="card-title">Nature At Its Best</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cards three -->
+      <div class="col">
+        <div class="card" style="width: 18rem">
+          <img
+            class="card-img-top img-fluid img-thumbnail"
+            src="{% static "blog/images/mountains.jpg" %}"
+            alt="mountains"
+          />
+          <div class="card-body text-dark">
+            <h5 class="card-title">Mountain Hiking</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- cards end -->
+  </div>
+  <!-- Blog post container end -->
+
+{% endblock %}

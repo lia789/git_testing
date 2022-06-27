@@ -1,0 +1,12 @@
+body {
+    color: white;
+}
+.container-fluid {
+    background-color: rgb(75, 3, 169);
+    max-height: 500px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}

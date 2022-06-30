@@ -1,0 +1,74 @@
+## Blog Application ##
+
+
+business goals:
+	- building webapp guideline
+	- writing html code
+	- building django guideline
+	- familiear with template inheritance
+	- familiear with django documentions
+	- skills about building webapp from scratch
+
+
+
+
+Steps I done:
+	1. Write down business goals
+	2. Build website structure on Figma
+	3. Build website wireframe every webpage and base.html file
+	4. Organize content and resources
+	5. Build home page html code
+		- build html structure and color box
+		- build html file top to bottom
+	6. Build list of pages html code
+	7. Build project structure
+		* setup django project structure 'command line code' and 'settings.py'
+		* create a simple index views functions and setup urls
+		* create a demo index.html file and test inheritance, project css and application css file
+	8. Design urls pattern on paper
+	9. Write every functions with pass and define urls with name
+	10. Test base.html, project and application level css file with demo template inheritance
+	11. Design base.html file and work with home_page
+	12. Test demo data with django dynamic tags
+	
+	
+
+Home Page html guidelines:
+	0. Write down common part about every html
+	1. Create home_page.html and home_page.css file
+	2. Copy bootstrap html structure code
+	3. Add local css file and document bootstrap css, javascript and local css file
+	4. Write heading or navbar html code
+	5. Write rest of code
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

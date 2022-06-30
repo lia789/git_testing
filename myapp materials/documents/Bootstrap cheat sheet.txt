@@ -1,0 +1,285 @@
+
+
+Bootstrap container:
+	- container
+	- container-fluid
+	- container-sm
+	- container-md
+	- container-lg
+	- container-xl
+	- container-xxl
+	- container-xxl
+	
+Bootstrap Auto-layout columns:
+	- col 					(equal width)
+	- col-7 				(setting column width)
+	- row justify-content-md-center   	(columns in midle)
+	- row row-cols-3			(row columns in col)
+	- nesting row and cloumns
+
+
+Bootstrap columns layout:
+	* Vertical alignment
+		- row align-items-start
+		- row align-items-center
+		- row align-items-end
+		- col align-self-start
+		- col align-self-center
+		- col align-self-end
+	* Horizontal alignment
+		- row justify-content-start
+		- row justify-content-center
+		- row justify-content-end
+		- row justify-content-around
+		- row justify-content-between
+		- row justify-content-evenly
+	* Columns warpping
+	* Column breaks
+	* order-4  (Columns order based on -1 to 6 range)
+	* Offsetting columns
+	* Margin utilities
+	* Standalone column classes
+
+
+Spece between columns as Gutters:
+	- row g-1 (horizontal and vertical togather gutters)
+	- row gx-5 (horizontal gutters)
+	- row gy-1 (vertical gutters)
+	- container overflow-hidden, row gx-5 (avoid container overflow)
+	- default no gutters
+
+
+Typography for text:
+	* Heading
+	* Display heading
+	* Lead
+	* Inline text elemnets
+	* Abbreviations
+	* Blockqotes
+	* Naming a source
+	* Alignment
+	* Unstyled list
+	* Inline list
+	* Description list alignment
+	
+
+Bootstrap color:
+	* background color
+		- bg-primary
+		- bg-secondary
+		- bg-success
+		- bg-danger
+		- bg-warning
+		- bg-info
+		- bg-light
+		- bg-dark
+	* link text color
+		- <a href="#" class="link-primary">Primary link</a>
+		- link-secondary
+		- link-success
+		- link-danger
+		- link-warning
+		- link-info
+		- link-light
+		- link-dark
+	
+	* text color
+		- text-light
+		- text-dark
+		- text-white
+		- text-warning
+		- text-danger
+		- text-success
+		- text-primary
+		
+
+Bootstrap text classes:
+	* text alignment
+		- text-start
+		- text-center
+		- text-end
+	* wrapping text
+		- text-warp
+		- text-nowrap
+	* text transform
+		- text-lowercase
+		- text-uppercase
+		- text-capitalize
+	* font size
+		- fs-1
+		- fs-5
+	* font weight and italics
+		- fw-bold
+		- fw-bolder
+		- fw-semibold
+		- fw-normal
+		- fw-light
+		- fw-lighter
+		- fst-italic
+		- fst-normal
+	* text decoration
+		- text-decoration-underline
+		- text-decoration-line-through
+		- text-decoration-none
+	* word break
+	* line height
+	* monospace
+	* reset color
+	
+
+Bootstrap Documentions components:
+	* Images
+	* Tables
+	* Forms
+	* Components list
+	* Clearfix
+	* Position
+	* Stretched link
+	* Border
+	* Display
+	* Flex
+	* Position
+	* Spacing
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
